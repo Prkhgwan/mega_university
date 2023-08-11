@@ -1,0 +1,161 @@
+#header {
+    width: auto;
+    margin: auto;
+    height: 180px;
+    position: relative;
+    border-bottom: solid 1px black;
+}
+
+#header>#title {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+#header>#login_button {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+
+#student_info {
+    width: auto;
+    margin: 30px;
+    border: solid 1px black;
+    border-radius: 20px;
+    display: flex;
+}
+
+#student_info>#student_name {
+    margin: 30px;
+}
+
+#student_info>#student_name>#name {
+    font-size: x-large;
+    font: bold;
+}
+
+.student_img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#student_info>#info_table {
+    margin: 30px;
+    display: block;
+}
+
+.info_table_trim {
+    border-spacing: 50px 5px;   
+}
+
+.info_table_trim>th,tr {
+    text-align: left;
+    width: auto;
+    height: 30px;
+    padding: 30px;
+    font-size: large;
+}
+
+#registed_subject {
+    width: 60%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border: solid 1px black;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+    display: flex;
+}
+
+#registed_subject>#subject_title {
+    width: auto;
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    align-content: space-between;
+}
+
+#registed_subject>#add_subject {
+    margin: auto;
+    top: 6%;
+    right: 3%;
+    display: block;
+    position: absolute;
+    
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+#registed_subject>#subject_table {
+    display: block;
+    margin: 30px;
+    width: 100%;
+    
+}
+
+.subject_table_trim {
+    margin: auto;
+    border-spacing: 30px 10px;
+    padding: 30px;
+}
+
+.subject_table_trim tr {
+    text-align: center;
+  }
+.subject_table_trim th {
+    border-bottom: 1px solid black;
+}
+#complete_credit {
+    margin-top: 30px;
+    margin-right: 50px;
+    border: solid 1px;
+    border-radius: 20px;
+    width: 30%;
+    display: flex;
+    text-overflow: ellipsis;
+}
+
+#complete_credit h1 {
+    margin-left: 20px;
+    margin: auto;
+}
+
+#complete_credit table {
+    margin: auto;
+}
+
+#scedule {
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 60px;
+    border: solid 1px;
+    border-radius: 20px;
+    clear: right;
+    position: relative;
+    display: flex;
+}
+
+#scedule h1 {
+    margin-left: 20px;
+    margin-bottom: auto;
+}
+
+.scedule_table {
+    margin: auto;
+    position: absolute;
+}
+
+.scedule_table_trim tr {
+    text-align: center;
+    text-overflow: ellipsis;
+}
